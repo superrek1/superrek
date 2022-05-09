@@ -1,0 +1,51 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-image: url("../../assets/img/bg.png");
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+footer {
+  position: absolute;
+  bottom: 0px;
+}
+
+footer > p {
+  font-size: 13px;
+  color: #ababab;
+}
+
+footer > p a {
+  color: #ababab;
+  text-decoration: none;
+}
+
+footer > p a:hover {
+  color: #ababab;
+  text-decoration: none;
+}
+
+.container {
+  height: 100%;
+}
+
+@media (max-width: 767.98px) {
+  body {
+    background-image: url("../../assets/img/bg-phone.png");
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .logo {
+    max-width: 120px;
+  }
+}
+
